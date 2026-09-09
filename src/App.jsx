@@ -101,11 +101,7 @@ function MainLeft() {
           <p className="">Tuesday, Aug 23 2089</p>
         </div>
         <div className="sunny-img-temp">
-          <img
-            src="/assets/images/icon-sunny.webp"
-            alt="weather-icon"
-            width="150"
-          />
+          <img src="/images/icon-sunny.webp" alt="weather-icon" width="150" />
           <h3 id="big-temp">20°</h3>
         </div>
       </div>
