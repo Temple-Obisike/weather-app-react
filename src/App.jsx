@@ -22,11 +22,11 @@ function Header() {
 function Nav() {
   return (
     <nav>
-      <img src="/images/logo.svg" alt="logo" />
+      <img src="/logo.svg" alt="logo" />
       <div id="nav__units">
-        <img src="/assets/images/icon-units.svg" alt="units" />
+        <img src="/icon-units.svg" alt="units" />
         <p>Units</p>
-        <img src="/assets/images/icon-dropdown.svg" alt="dropdown-icon" />
+        <img src="/icon-dropdown.svg" alt="dropdown-icon" />
       </div>
     </nav>
   );
@@ -38,7 +38,7 @@ function Form() {
   return (
     <form action="">
       <div id="icon-input">
-        <img src="/assets/images/icon-search.svg" alt="serach-icon" />
+        <img src="/icon-search.svg" alt="serach-icon" />
         <input type="text" placeholder="Search for a place..." />
       </div>
       <button>Search</button>
@@ -124,11 +124,7 @@ function MainLeft() {
       <h4>Daily forecast</h4>
       <div id="tue" className="flex-col-center">
         <p>Tue</p>
-        <img
-          src="/assets/images/icon-rain.webp"
-          alt="weather-icon"
-          width="40"
-        />
+        <img src="/icon-rain.webp" alt="weather-icon" width="40" />
         <div className="flex-row-space">
           <p>20°</p>
           <p>14°</p>
@@ -136,11 +132,7 @@ function MainLeft() {
       </div>
       <div id="wed" className="flex-col-center">
         <p>Wed</p>
-        <img
-          src="/assets/images/icon-drizzle.webp"
-          alt="weather-icon"
-          width="40"
-        />
+        <img src="/icon-drizzle.webp" alt="weather-icon" width="40" />
         <div className="flex-row-space">
           <p>21°</p>
           <p>15°</p>
@@ -148,11 +140,7 @@ function MainLeft() {
       </div>
       <div id="thu" className="flex-col-center">
         <p>Thu</p>
-        <img
-          src="/assets/images/icon-sunny.webp"
-          alt="weather-icon"
-          width="40"
-        />
+        <img src="/icon-sunny.webp" alt="weather-icon" width="40" />
         <div className="flex-row-space">
           <p>24°</p>
           <p>14°</p>
@@ -160,11 +148,7 @@ function MainLeft() {
       </div>
       <div id="fri" className="flex-col-center">
         <p>Fri</p>
-        <img
-          src="/assets/images/icon-partly-cloudy.webp"
-          alt="weather-icon"
-          width="40"
-        />
+        <img src="/icon-partly-cloudy.webp" alt="weather-icon" width="40" />
         <div className="flex-row-space">
           <p>25°</p>
           <p>13°</p>
@@ -172,11 +156,7 @@ function MainLeft() {
       </div>
       <div id="sat" className="flex-col-center">
         <p>Sat</p>
-        <img
-          src="/assets/images/icon-storm.webp"
-          alt="weather-icon"
-          width="40"
-        />
+        <img src="/icon-storm.webp" alt="weather-icon" width="40" />
         <div className="flex-row-space">
           <p>21°</p>
           <p>15°</p>
@@ -184,11 +164,7 @@ function MainLeft() {
       </div>
       <div id="sun" className="flex-col-center">
         <p>Sun</p>
-        <img
-          src="/assets/images/icon-snow.webp"
-          alt="weather-icon"
-          width="40"
-        />
+        <img src="/icon-snow.webp" alt="weather-icon" width="40" />
         <div className="flex-row-space">
           <p>25°</p>
           <p>16°</p>
@@ -196,11 +172,7 @@ function MainLeft() {
       </div>
       <div id="mon" className="flex-col-center">
         <p>Mon</p>
-        <img
-          src="/assets/images/icon-overcast.webp"
-          alt="weather-icon"
-          width="40"
-        />
+        <img src="/icon-overcast.webp" alt="weather-icon" width="40" />
         <div className="flex-row-space">
           <p>24°</p>
           <p>15°</p>
@@ -226,11 +198,7 @@ function MainRight() {
       </div>
       <div className="main__right-child-container">
         <div className="inner">
-          <img
-            src="/assets/images/icon-overcast.webp"
-            alt="weather-icon"
-            width="35"
-          />
+          <img src="/icon-overcast.webp" alt="weather-icon" width="35" />
           <p>3pm</p>
         </div>
         <p>20°</p>
@@ -238,11 +206,7 @@ function MainRight() {
 
       <div className="main__right-child-container">
         <div className="inner">
-          <img
-            src="/assets/images/icon-sunny.webp"
-            alt="weather-icon"
-            width="35"
-          />
+          <img src="/icon-sunny.webp" alt="weather-icon" width="35" />
           <p>4pm</p>
         </div>
         <p>20°</p>
@@ -250,11 +214,7 @@ function MainRight() {
 
       <div className="main__right-child-container">
         <div className="inner">
-          <img
-            src="/assets/images/icon-sunny.webp"
-            alt="weather-icon"
-            width="35"
-          />
+          <img src="/icon-sunny.webp" alt="weather-icon" width="35" />
           <p>5pm</p>
         </div>
         <p>20°</p>
@@ -262,11 +222,7 @@ function MainRight() {
 
       <div className="main__right-child-container">
         <div className="inner">
-          <img
-            src="/assets/images/icon-partly-cloudy.webp"
-            alt="weather-icon"
-            width="30"
-          />
+          <img src="/icon-partly-cloudy.webp" alt="weather-icon" width="30" />
           <p>6pm</p>
         </div>
         <p>18°</p>
@@ -274,11 +230,7 @@ function MainRight() {
 
       <div className="main__right-child-container">
         <div className="inner">
-          <img
-            src="/assets/images/icon-rain.webp"
-            alt="weather-icon"
-            width="35"
-          />
+          <img src="/icon-rain.webp" alt="weather-icon" width="35" />
           <p>7pm</p>
         </div>
         <p>18°</p>
@@ -286,11 +238,7 @@ function MainRight() {
 
       <div className="main__right-child-container">
         <div className="inner">
-          <img
-            src="/assets/images/icon-partly-cloudy.webp"
-            alt="weather-icon"
-            width="30"
-          />
+          <img src="/icon-partly-cloudy.webp" alt="weather-icon" width="30" />
           <p>8pm</p>
         </div>
         <p>17°</p>
@@ -298,11 +246,7 @@ function MainRight() {
 
       <div className="main__right-child-container">
         <div className="inner">
-          <img
-            src="/assets/images/icon-drizzle.webp"
-            alt="weather-icon"
-            width="35"
-          />
+          <img src="/icon-drizzle.webp" alt="weather-icon" width="35" />
           <p>9pm</p>
         </div>
         <p>17°</p>
@@ -310,11 +254,7 @@ function MainRight() {
 
       <div className="main__right-child-container">
         <div className="inner">
-          <img
-            src="/assets/images/icon-rain.webp"
-            alt="weather-icon"
-            width="35"
-          />
+          <img src="/icon-rain.webp" alt="weather-icon" width="35" />
           <p>10pm</p>
         </div>
         <p>10°</p>
