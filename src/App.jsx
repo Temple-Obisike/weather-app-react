@@ -22,7 +22,7 @@ function Header() {
 function Nav() {
   return (
     <nav>
-      <img src="/assets/images/logo.svg" alt="logo" />
+      <img src="/images/logo.svg" alt="logo" />
       <div id="nav__units">
         <img src="/assets/images/icon-units.svg" alt="units" />
         <p>Units</p>
